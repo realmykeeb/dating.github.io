@@ -441,3 +441,90 @@ object-fit: cover;
   color: #7e57c2; 
 
 }
+/**Body **/
+        
+        
+
+   
+
+
+/*Nav ending */
+
+/* Main Section */
+
+main {
+
+    flex: 1;
+
+    padding: 20px;
+
+    text-align: center;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    height: 50vh; /* Set to half of the viewport height */
+
+    box-sizing: border-box; /* Ensure padding is included in the height calculation */
+
+}
+•intro {
+
+    
+
+    box-shadow: none;
+        
+
+}
+
+.intro-content {
+
+    max-width: 800px;
+
+    margin: 0 auto;
+
+}
+
+.intro h1 {
+
+    margin-top: 0;
+
+}
+
+.intro p {
+
+    font-size: 16px;
+
+    margin: 20px 0;
+
+}
+
+•cta-button {
+
+    display: inline-block;
+
+    background-color: #FC5A8D;
+
+    color: #fff;
+
+    padding: 10px 10px;
+
+    text-decoration: none;
+
+    border-radius: 45px;
+
+    width: 305px;
+
+    font-size: 16px;
+     top: -33px;
+
+
+    transition: background-color 0.3s;
+
+    
+
+}
+}
