@@ -30,8 +30,6 @@
 body {
 
  min-height: 100vh;
-
-background-image: url('Screenshot_20241111-174115.jpg);
  background-size: cover;
  background-color: rgba(0, 0, 0, 0.90);
  background-attachment: fixed;
