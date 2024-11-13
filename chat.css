@@ -20,7 +20,7 @@
   position: sticky;
   top: 0;  /* Sticks the navbar to the top */
   width: 100%;  /* Ensures it spans the full width of the page */
-  background-color: #333;
+  background-color: #fff;
   border-bottom: 1px solid #e0e0e0;
   height: 55px;
 }
