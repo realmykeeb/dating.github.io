@@ -30,9 +30,11 @@
   left: 7px;
 }
 .box {
-position: relative;
-width: 40px;
-height: 27px;
+position: absolute;
+width: 42px;
+height: 40px;
 background: #f2f2f2;
-border-radius: 50%;
+Border-radius: 20px;
+margin-top: 8px;
+left: 50px;
 }
