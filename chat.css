@@ -7,7 +7,7 @@
   box-sizing: border-box;
 
 }
-navbar {
+.navbar {
   position: sticky;
   top: 0;  /* Sticks the navbar to the top */
   width: 100%;  /* Ensures it spans the full width of the page */
