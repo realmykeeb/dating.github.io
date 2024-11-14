@@ -38,7 +38,9 @@ margin-top: 3px;
 margin-left: 45px;
 }
 p.text-name1 {
- position: relative;
- top: -39px;
+position: relative;
+top: -39px;
 left: 96px;
+font-family: system-ui;
+font-weight: bold;
 }
