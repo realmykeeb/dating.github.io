@@ -42,11 +42,16 @@ html, body {
   height: 47px;
   border-radius: 50%;
 }
-
+img.avatar {
+position: relative;
+right: 10px;
+}
 .text-name1 {
   font-family: system-ui;
   font-weight: bold;
   margin-left: 10px;
+ right: 44px;
+ top: -7px;
 }
 
 .profil-pix, .name1 {
