@@ -40,7 +40,7 @@ html, body {
   vertical-align: middle;
   width: 47px;
   height: 47px;
-  border-radius: 50%;
+  border-radius: 80px;
 }
 img.avatar {
 position: relative;
