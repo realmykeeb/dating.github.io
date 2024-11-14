@@ -37,3 +37,8 @@ border-radius: 45px;
 margin-top: 3px;
 margin-left: 45px;
 }
+p.text-name1 {
+ position: relative;
+ top: -39px;
+left: 96px;
+}
