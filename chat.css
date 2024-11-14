@@ -52,6 +52,7 @@ right: 10px;
   margin-left: 10px;
  right: 44px;
  top: -7px;
+  position: relative;
 }
 
 .profil-pix, .name1 {
