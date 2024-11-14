@@ -1,51 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 html, body {
   overflow-x: hidden;
   margin: 0;
   padding: 0;
 }
-* {
 
-  margin: 0;
-
-  padding: 0;
-
-  box-sizing: border-box;
-
-}
 .navbar {
   position: sticky;
-  top: 0;  /* Sticks the navbar to the top */
-  width: 100%;  /* Ensures it spans the full width of the page */
-  background-color: #333;  /* Background color for the navbar */
-  z-index: 1000;  /* Ensures it's on top of other content */
-  box-shadow: 0 4px 2px -2px gray;  /* Optional shadow for better visibility */
+  top: 0;
+  width: 100%;
+  background-color: #333;
+  z-index: 1000;
+  box-shadow: 0 4px 2px -2px gray;
   height: 30px;
 }
+
 .nav {
-  position: sticky;
-  top: 0;  /* Sticks the navbar to the top */
-  width: 100%;  /* Ensures it spans the full width of the page */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
   background-color: #fff;
   border-bottom: 1px solid #e0e0e0;
   height: 55px;
+  padding: 0 10px; /* Padding to prevent content from touching edges */
 }
-.\31 classz {
-  margin-top: 17px;
-  position: absolute;
-  left: 7px;
+
+.\31 classz, .\32 classz {
+  font-size: 24px;
+  cursor: pointer;
 }
+
 .avatar {
-vertical-align: middle;
-width: 47px;
-height: 47px;
-border-radius: 45px;
-margin-top: 3px;
-margin-left: 45px;
+  vertical-align: middle;
+  width: 47px;
+  height: 47px;
+  border-radius: 50%;
 }
-p.text-name1 {
-position: relative;
-top: -39px;
-left: 96px;
-font-family: system-ui;
-font-weight: bold;
+
+.text-name1 {
+  font-family: system-ui;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.profil-pix, .name1 {
+  display: flex;
+  align-items: center;
 }
