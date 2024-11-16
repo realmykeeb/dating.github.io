@@ -70,4 +70,5 @@ height: 46px;
 text-decoration: none;
 border: 1px solid silver;
 padding: 20px 45px 20px 20px;
+outline: none !important;
 }
