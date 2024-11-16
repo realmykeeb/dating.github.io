@@ -69,9 +69,9 @@ input.form-control {
     height: 46px;
     text-decoration: none;
     border: 1px solid silver;
-    padding: 10px 20px; /* Adjust padding to avoid icons */
+    padding: 10px 20px; /* Ensure no padding triggers unwanted icons */
     outline: none !important;
-    -webkit-appearance: none; /* Remove native styles/icons */
-    -moz-appearance: none; /* Remove for Firefox */
-    appearance: none; /* Standard property */
+    -webkit-appearance: none; /* Remove browser-specific styles/icons */
+    -moz-appearance: none;
+    appearance: none;
 }
