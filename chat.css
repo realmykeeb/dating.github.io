@@ -69,9 +69,14 @@ input.form-control {
     height: 46px;
     text-decoration: none;
     border: 1px solid silver;
-    padding: 10px 20px; /* Ensure no padding triggers unwanted icons */
-    outline: none !important;
-    -webkit-appearance: none; /* Remove browser-specific styles/icons */
+    padding: 10px 20px;
+    outline: none !important; /* Removes the black outline on focus */
+    -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
+}
+
+input.form-control:focus {
+    border-color: silver; /* Optional: Keep a subtle border to indicate focus */
+    box-shadow: none; /* Removes any shadow applied by the browser */
 }
