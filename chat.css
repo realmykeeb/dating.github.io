@@ -78,10 +78,6 @@ input.form-control:focus {
     border-color: silver;
     box-shadow: none;
 }
-
-.footer {
-    display: flex; /* For better alignment */
-    justify-content: center; /* Center align */
-    padding: 10px 0; /* Adjust padding as needed */
-    background-color: #f8f8f8; /* Optional background for footer */
+textarea{
+  margin-top: 555px;
 }
