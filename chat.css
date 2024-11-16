@@ -79,7 +79,14 @@ input.form-control:focus {
     box-shadow: none;
 }
 textarea{
-  margin-top: 528px;
+  margin-top: 510px;
   position: relative;
-  left: 30px;
+  left: 9px;
+  width: 340px;
+  border: 1px solid silver;
+  outline: none;
+  border-color: silver;
+  box-shadow: none;
+  height: 40px;
+  padding: 10px 20px;
 }
