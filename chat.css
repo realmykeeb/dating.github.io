@@ -59,3 +59,7 @@ right: 16px;
   display: flex;
   align-items: center;
 }
+input.message {
+position: relative;
+margin-top: 580px;
+}
