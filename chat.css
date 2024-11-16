@@ -61,5 +61,13 @@ right: 16px;
 }
 input.message {
 position: relative;
-margin-top: 580px;
+margin-top: 548px;
+left: 25px;
+width: 313px;
+background: #fff;
+border-radius: 30px;
+height: 46px;
+text-decoration: none;
+border: 1px solid silver;
+padding: 20px 45px 20px 20px;
 }
