@@ -59,7 +59,7 @@ right: 16px;
   display: flex;
   align-items: center;
 }
-input.message {
+input.form-control {
 position: relative;
 margin-top: 548px;
 left: 25px;
