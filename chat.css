@@ -79,5 +79,7 @@ input.form-control:focus {
     box-shadow: none;
 }
 textarea{
-  margin-top: 555px;
+  margin-top: 528px;
+  position: relative;
+  left: 30px;
 }
