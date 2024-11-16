@@ -60,23 +60,28 @@ right: 16px;
   align-items: center;
 }
 input.form-control {
-    position: relative;
-    margin-top: 548px;
-    left: 25px;
-    width: 313px;
+    position: relative; /* Or use absolute, if needed */
+    margin-top: 0; /* Adjust this if needed */
+    left: 0; /* Align properly within parent container */
+    width: 100%; /* Make it responsive */
+    max-width: 313px; /* Maintain your original width constraint */
     background: #fff;
     border-radius: 30px;
     height: 46px;
-    text-decoration: none;
     border: 1px solid silver;
     padding: 10px 20px;
-    outline: none !important; /* Removes the black outline on focus */
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
+    outline: none; /* No focus outline */
+    box-sizing: border-box; /* Prevent overflowing */
 }
 
 input.form-control:focus {
-    border-color: silver; /* Optional: Keep a subtle border to indicate focus */
-    box-shadow: none; /* Removes any shadow applied by the browser */
+    border-color: silver;
+    box-shadow: none;
+}
+
+.footer {
+    display: flex; /* For better alignment */
+    justify-content: center; /* Center align */
+    padding: 10px 0; /* Adjust padding as needed */
+    background-color: #f8f8f8; /* Optional background for footer */
 }
