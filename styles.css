@@ -34,7 +34,7 @@ body {
  background-image: url(photo-1520975408777-d189f6edc46d.jpeg);
  background-attachment: fixed;
  background-position: center center;
-
+ background-color: #666464;
  display: flex;
 
  flex-direction: column;
