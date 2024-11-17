@@ -43,6 +43,8 @@ body {
 
  padding: 0;
  overflow: hidden;
+  position: relative;
+  padding-bottom: 43px;
 }
 html{
 
