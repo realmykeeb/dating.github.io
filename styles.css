@@ -1,182 +1,539 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-/* Root Variables */
-:root {
+:root{
+
   --color-1: #0f1016;
-  --text-color: #f0f0f0;
-  --accent-color: #006aff;
-}
 
-/* Global Reset */
-* {
+  --text-color: #f0f0f0;
+
+  --accent-color: #006aff;
+
+ * {
+
   margin: 0;
+
   padding: 0;
+
   box-sizing: border-box;
+
+}
+ .aligned-img {
+
+    height: 20px; /* Adjust height as needed */
+
+    vertical-align: middle; /* Aligns the image with the middle of the text */
+
+    margin-right: 5px; /* Space between the image and text */
+
 }
 
 body {
-  min-height: 100vh;
-  background: #666464 url('photo-1520975408777-d189f6edc46d.jpeg') no-repeat center center fixed;
-  background-size: cover;
-  display: flex;
-  flex-direction: column;
-  margin: 0;
-  padding-bottom: 43px;
-  overflow: hidden;
-  font-size: 12px;
-  font-family: 'Poppins', 'Segoe UI', Tahoma, sans-serif;
-}
 
-h1, p {
-  font-family: 'Arial Black', sans-serif;
-  color: #fff;
-  text-shadow: -3px 3px 0 #fff;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  text-align: center;
-}
+ min-height: 100vh;
+ background-size: cover;
+ background-image: url(photo-1520975408777-d189f6edc46d.jpeg);
+ background-attachment: fixed;
+ background-position: center center;
+ background-color: #666464;
+ display: flex;
 
-h1 {
-  font-size: 21px;
-  margin-bottom: 70px;
-}
+ flex-direction: column;
 
-/* Navigation */
-nav {
-  height: 60px;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-}
+ margin: 0;
 
-.links-container {
-  height: 100%;
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
-nav a {
-  height: 100%;
-  padding: 0 20px;
-  display: flex;
-  align-items: center;
-  text-decoration: none;
-  color: #000;
-}
-
-nav a:hover {
-  background-color: #f5f5f5;
-}
-
-nav .home-link {
-  margin-right: auto;
-}
-
-/* Sidebar */
-#sidebar-active {
-  display: none;
-}
-
-.open-sidebar-button, .close-sidebar-button {
-  display: none;
-}
-
-@media (max-width: 450px) {
-  .links-container {
-    flex-direction: column;
-    align-items: flex-start;
-    position: fixed;
-    top: 0;
-    right: -100%;
-    z-index: 10;
-    width: 100%;
-    background-color: #fff;
-    box-shadow: -5px 0 5px rgba(0, 0, 0, 0.25);
-    transition: 0.75s ease-out;
-  }
-
-  nav a {
-    height: auto;
-    width: 100%;
-    padding: 20px 30px;
-    justify-content: flex-start;
-  }
-
-  .open-sidebar-button, .close-sidebar-button {
-    padding: 30px;
-    display: block;
-  }
-
-  #sidebar-active:checked ~ .links-container {
-    right: 0;
-  }
-
-  #sidebar-active:checked ~ #overlay {
-    height: 100%;
-    width: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 9;
-    color: #fff;
-  }
-}
-
-/* Buttons */
-.button {
-  background-color: #FF6A0A;
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: block;
-  font-size: 16px;
-  margin: 10px auto;
-  width: 80%;
-  height: 50px;
-  border-radius: 25px;
-  transition: background-color 0.3s ease;
-}
-
-.cta-button {
-  display: inline-block;
-  background-color: #FC5A8D;
-  color: #fff;
-  padding: 10px 10px;
-  text-decoration: none;
-  border-radius: 45px;
-  width: 305px;
-  font-size: 16px;
+ padding: 0;
+ overflow: hidden;
   position: relative;
-  top: -33px;
-  transition: background-color 0.3s;
+  padding-bottom: 43px;
+}
+html{
+
+  font-size: 12px;
+
+  font-family: Poppins, Segoe UI, Tahoma, sans-serif;
+
 }
 
-/* Intro Section */
-.intro {
-  text-align: center;
+nav{
+
+  height: 60px;
+
+  background-color: none;
+
+  display: flex;
+
+  justify-content: flex-end;
+
+  align-items: center;
+
+}
+
+.links-container{
+
+  height: 100%;
+
+  width: 100%;
+
+  display: flex;
+
+  flex-direction: row;
+
+  align-items: center;
+
+}
+nav a{
+
+  height: 100%;
+
+  padding: 0 20px;
+
+  display: flex;
+
+  align-items: center;
+
+  text-decoration: none;
+
+  color: #000;
+
+}
+
+nav a:hover{
+
+  background-color: none;
+
+}
+
+nav .home-link{
+
+  margin-right: auto;
+
+
+}
+nav svg{
+
+  color: #fff;
+
+}
+
+#sidebar-active{
+  
+  display: none;
+
+}
+
+.open-sidebar-button, .close-sidebar-button{
+
+  display: none;
+
+}
+ h1 {
+   font-family: 'Arial black';
+         
+   color: #fff;
+         
+   text-shadow: -3px 3px 0 #fff, -3 3px 0 #fff;
+         
+   letter-spacing: 1px;
+         
+   text-transform: uppercase;
+         
+   text-align: center;
+
+ }
+  p {
+   font-family: 'Arial black';
+
+   color: #fff;
+
+   text-shadow: -3px 3px 0 #fff, -3 3px 0 #fff;;
+
+   letter-spacing: 1px;
+
+   text-transform: uppercase;
+
+   text-align: center;
+        
+}
+@media(max-width: 450px){
+
+  .links-container{
+
+    flex-direction: column;
+
+    align-items: flex-start;
+
+
+
+    position: fixed;
+
+    top: 0;
+
+    right: -100%;
+
+    z-index: 10;
+
+    width: 100%;
+
+
+
+    background-color: #fff;
+
+    box-shadow: -5px 0 5px rgba(0, 0, 0, 0.25);
+
+    transition: 0.75s ease-out;
+
+  }
+  nav a{
+
+    box-sizing: border-box;
+
+    height: auto;
+
+    width: 100%;
+
+    padding: 20px 30px;
+
+    justify-content: flex-start;
+
+  }
+ 
+.button {
+
+        background-color: #FF6a0a;
+
+        border: none;
+
+        color: white;
+
+        padding: 15px 32px;
+
+        text-align: center;
+
+        text-decoration: none;
+
+        display: block;
+
+        font-size: 16px;
+
+        margin: 10px 0;
+
+        cursor: pointer;
+
+        width: 80%;
+
+        margin-left: 35px;
+
+        margin-top: 240px;
+
+        height: 50px;
+
+        border-radius: 25px;
+
+        transition: background-color 0.3s ease;
+
+  }
+  .open-sidebar-button, .close-sidebar-button{
+    
+    padding: 30px;
+
+    display: block;
+    position: relative;
+    margin-top: -14px;
+
+  }
+
+  #sidebar-active:checked ~ .links-container{
+
+    right: 0;
+    
+
+  }
+  
+
+
+  #sidebar-active:checked ~ #overlay{
+
+    height: 100%;
+
+    width: 100%;
+
+    position: fixed;
+
+    top: 0;
+     color: #fff;
+
+    left: 0;
+
+    z-index: 9;
+
+  }
+  .cta-button {
+        display: flex;
+        top: 500px;
+        color: #fff;
+        
+   }
+      
+     
+     .intro {
+
+  
+  text-align: center; /* Centers content horizontally */
+
 }
 
 .intro-content {
+
   display: inline-block;
-  max-width: 800px;
-  margin: 0 auto;
-  padding-top: 300px;
+
+  width: 100%; /* Ensures full width */
+
+  text-align: center; /* Centers the content inside this div */
+
+  margin: 0 auto; /* Centers the div horizontally */
+
+  padding-top: 300px; /* Adds vertical space (adjust if necessary) */
+  
+  z-index: 1000;
+}
+.altt {
+   
+   color: #fff;
+   font-size: 12px !important;
+   margin-top: 10px;
+
+  }
+    .login-link {
+     
+     text-decoration: none;
+     color: #fff;
+    }
+     
+h1 {
+
+   font-family: 'Arial Black';
+   
+   color: #fff;
+   
+   letter-spacing: 1px;
+   font-size: 21px;
+
+   text-transform: uppercase;
+
+   margin: 0;
+   
+   /* Change margin-top to a positive value to push it down */
+   padding: 0px; 
+   margin-bottom: 70px;
+}
+  .links-container a {
+
+  display: block;
+  position: relative;
+  top: -30px;
+
+  
+
+  text-decoration: none;  /* Removes underline from links */
+
+  color: #333;
+
+  border-bottom: 1px solid #ddd; /* Adds the line under each link */
+
+}
+   .links-container a:hover {
+
+  background-color: #f5f5f5; /* Optional hover effect */
+
 }
 
-/* Footer */
-footer.footerzz {
-  background: #000;
-  height: 43px;
-  width: 100%;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  z-index: 10;
-  }
-#sidebar-active:checked ~ .footerzz {
-    display: none;
+.links-container a.button {
+
+  border-bottom: none; /* Removes the line for the 'Start Dating' button */
+
 }
+
+.links-container a:last-child {
+
+  border-bottom: none; /* Removes the bottom border for the last link */
+}
+.links-container a.home-link {
+   
+
+  border-top: 1px solid #ddd; /* Line above the "Home" link */
+
+}
+        
+        
+  .img-cover2 img {
+          
+   width: 42px;
+
+  height: 40px;
+
+  border-radius: 400px;
+  overflow: hidden;
+  position: absolute;
+  top: 80px;
+  left: 8px;
+ 
+  }
+.purple-text {
+
+ padding: 5px;
+
+  top: 85px;
+
+  background: #f0f0f0;
+          
+  left: 56px;
+
+  margin-top: -2px;
+
+  border-radius: 40px;
+
+  width: 260px;
+
+  position: absolute;
+
+  color: #7e57c2; /* Adjust the color as needed */
+}
+.img-cover3 {
+        
+   width: 42px;
+
+  height: 40px;
+
+ position: absolute;
+
+  top: 160px;
+
+  border-radius: 54px;
+
+  margin-left: 279px;
+
+  overflow: hidden;
+}
+.img-cover3 img {
+ width: 100%;
+object-fit: cover;  
+  
+}
+.purple-text1 {
+
+ 
+ padding: 5px;
+
+  top: 170px;
+
+  background: #f0f0f0;
+          
+  left: 29px;
+
+  margin-top: -2px;
+
+  border-radius: 40px;
+
+  width: 260px;
+
+  position: absolute;
+
+  color: #7e57c2; 
+
+}
+/**Body **/
+        
+        
+
+   
+
+
+/*Nav ending */
+
+/* Main Section */
+
+main {
+
+    flex: 1;
+
+    padding: 20px;
+
+    text-align: center;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    height: 50vh; /* Set to half of the viewport height */
+
+    box-sizing: border-box; /* Ensure padding is included in the height calculation */
+
+}
+•intro {
+
+    
+
+    box-shadow: none;
+        
+
+}
+
+.intro-content {
+
+    max-width: 800px;
+
+    margin: 0 auto;
+
+}
+
+.intro h1 {
+
+    margin-top: 0;
+
+}
+
+.intro p {
+
+    font-size: 16px;
+
+    margin: 20px 0;
+
+}
+
+•cta-button {
+
+    display: inline-block;
+
+    background-color: #FC5A8D;
+
+    color: #fff;
+
+    padding: 10px 10px;
+
+    text-decoration: none;
+
+    border-radius: 45px;
+
+    width: 305px;
+
+    font-size: 16px;
+     top: -33px;
+
+
+    transition: background-color 0.3s;
+}
+
+footer.footerzz {
+  background: #000; /* Keeps the black background */
+  height: 43px; /* Maintains the footer height */
+  width: 100%; /* Ensures it spans the full page width */
+  position: fixed; /* Makes the footer stick at the bottom */
+  bottom: 0; /* Ensures the footer stays at the bottom */
+  left: 0; /* Aligns the footer with the left edge */
+  margin: 0; /* Removes unnecessary margin */
+  z-index: 10; /* Ensures the footer is on top if overlapping occurs */
+}
+  
+    }
