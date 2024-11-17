@@ -181,6 +181,13 @@ nav svg{
     transition: 0.75s ease-out;
 
   }
+footer.footerzz {
+height: 30px;
+background: #fff;
+position: relative;
+width: 100%;
+margin-top: 555px;
+}
   nav a{
 
     box-sizing: border-box;
