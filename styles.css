@@ -177,3 +177,6 @@ footer.footerzz {
   left: 0;
   z-index: 10;
   }
+#sidebar-active:checked ~ .footerzz {
+    display: none;
+}
