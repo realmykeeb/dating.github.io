@@ -519,7 +519,7 @@ footer.footerzz {
   display: flex;
 
   justify-content: flex-end;
-
+  position: relative;
   align-items: center;
   height: 43px; /* Maintains the footer height */
   width: 100%; /* Ensures it spans the full page width */
