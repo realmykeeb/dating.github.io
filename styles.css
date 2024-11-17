@@ -522,7 +522,7 @@ main {
 
     transition: background-color 0.3s;
 }
-  footer {
+footer.footerzz {
 height: 30px;
 background: #fff;
 position: relative;
