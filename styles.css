@@ -526,7 +526,7 @@ footer.footerzz {
   left: 0; /* Aligns the footer with the left edge */
   margin: 0; /* Removes unnecessary margin */
   z-index: 1; /* Lower z-index to ensure it stays below the sidebar */
- top: -56px;
+ top: 236px;
 }
 
 /* Fallback for older browsers */
