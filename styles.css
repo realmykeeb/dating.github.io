@@ -519,7 +519,7 @@ footer.footerzz {
   display: flex;
 
   justify-content: flex-end;
-  position: relative;
+  position: sticky;
   align-items: center;
   height: 43px; /* Maintains the footer height */
   width: 100%; /* Ensures it spans the full page width */
@@ -527,6 +527,15 @@ footer.footerzz {
   margin: 0; /* Removes unnecessary margin */
   z-index: 1; /* Lower z-index to ensure it stays below the sidebar */
 }
+
+/* Fallback for older browsers */
+@supports not (position: sticky) {
+  footer.footerzz {
+    position: fixed;
+    bottom: 0;
+  }
+  }
+    
 /* Hide footer when the sidebar is open */
 #sidebar-active:checked ~ footer.footerzz {
   display: none; /* Hides the footer when the sidebar is active */
