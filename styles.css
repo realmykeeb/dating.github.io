@@ -526,7 +526,7 @@ inset: auto 0% 0%;
 justify-content: flex-end;
 position: fixed;
 align-items: center;
-height: 63px; /* Maintains the footer height */
+height: 37px; /* Maintains the footer height */
 width: 100%; /* Ensures it spans the full page width */
 left: 0; /* Aligns the footer with the left edge */
 margin: 0; /* Removes unnecessary margin */
