@@ -535,5 +535,10 @@ footer.footerzz {
   margin: 0; /* Removes unnecessary margin */
   z-index: 10; /* Ensures the footer is on top if overlapping occurs */
 }
+  #sidebar-active:checked ~ footer.footerzz {
+    visibility: hidden; /* Hides the footer without disrupting layout */
+    opacity: 0; /* Adds a smooth fade-out effect */
+    transition: opacity 0.3s ease; /* Smooth transition */
+    }
   
     }
