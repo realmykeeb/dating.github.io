@@ -522,11 +522,14 @@ main {
 
     transition: background-color 0.3s;
 }
-footer.footerzz {
+
+footer.footerzz{
+background: #000;
 height: 30px;
-background: #fff;
-position: relative;
 width: 100%;
-margin-top: 555px;
-  }
+left: -1px;
+margin-top: 583px;
+position: fixed;
+}
+  
 }
