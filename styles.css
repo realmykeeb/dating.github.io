@@ -156,33 +156,19 @@ nav svg{
 }
 @media(max-width: 450px){
 
-  .links-container{
-
-    flex-direction: column;
-
-    align-items: flex-start;
-
-
-
-    position: fixed !important;
-
-    top: 0;
-
-    right: -100%;
-
-    z-index: 10;
-
-    width: 100%;
-
-
-
-    background-color: #fff;
-
-    box-shadow: -5px 0 5px rgba(0, 0, 0, 0.25);
-
-    transition: 0.75s ease-out;
-
-  }
+  /* Sidebar (links-container) CSS */
+.links-container {
+  flex-direction: column;
+  align-items: flex-start;
+  position: fixed !important;
+  top: 0;
+  right: -100%;
+  z-index: 9999; /* Higher z-index to ensure it appears on top */
+  width: 100%;
+  background-color: #fff;
+  box-shadow: -5px 0 5px rgba(0, 0, 0, 0.25);
+  transition: 0.75s ease-out;
+}
   nav a{
 
     box-sizing: border-box;
@@ -533,14 +519,16 @@ footer.footerzz {
   bottom: 0; /* Ensures the footer stays at the bottom */
   left: 0; /* Aligns the footer with the left edge */
   margin: 0; /* Removes unnecessary margin */
-  z-index: 10; /* Ensures the footer is on top if overlapping occurs */
+  z-index: 1; /* Lower z-index to ensure it stays below the sidebar */
 }
-/* Hide footer when sidebar is active */
-.sidebar-active .footerzz {
-    visibility: hidden; /* Hides the footer */
-    opacity: 0; /* Fades out */
-    pointer-events: none; /* Prevents interaction */
-    transition: opacity 0.3s ease; /* Smooth fade-out transition */
+/* Hide footer when the sidebar is open */
+#sidebar-active:checked ~ footer.footerzz {
+  display: none; /* Hides the footer when the sidebar is active */
+}
+
+/* Move sidebar into view when active */
+#sidebar-active:checked ~ .links-container {
+  right: 0; /* Moves the sidebar into view */
 }
 
   
