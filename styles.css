@@ -545,6 +545,10 @@ margin-top: 510px;
 }
 
 .down-line {
+height: 330px;
+position: absolute;
+left: 0;
+width: 100%;
 background: rgb(34 34 34 / 76%);
 }
   
