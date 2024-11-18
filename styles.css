@@ -46,7 +46,13 @@ body {
   
   padding-bottom: 43px;
 }
+html{
 
+  font-size: 12px;
+
+  font-family: Poppins, Segoe UI, Tahoma, sans-serif;
+
+}
 nav{
 
   height: 60px;
