@@ -554,7 +554,7 @@ width: 88%;
 margin: 10px 0;
 height: 50px;
 position: relative;
-left: 35px;
+left: 32px;
 border-radius: 35px;
 margin-top: 65px;
   }
@@ -562,6 +562,7 @@ p.texnt {
 position: relative;
 margin-top: 140px;
 color: #fff;
-height: 8px;
+height: 2px;
+font-size: 4px;
   }
   }
