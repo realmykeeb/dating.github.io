@@ -55,9 +55,9 @@ html{
 }
 nav{
 
-  height: 60px;
+  height: 30px;
 
-  background-color: none;
+  background-color: #ffff;
 
   display: flex;
 
