@@ -31,7 +31,6 @@ body {
 
  min-height: 100vh;
  background-size: cover;
- background-image: linear-gradient(#000000a1,#0000),url(photo-1520975408777-d189f6edc46d.jpeg);
  background-attachment: fixed;
  background-position: center center;
  background-color: #666464;
@@ -557,18 +556,5 @@ position: relative;
 left: 25px;
 border-radius: 35px;
 margin-top: 65px;
-  }
-p.texnt {
-position: relative;
-margin-top: 357px;
-color: #fff;
-height: 2px;
-font-size: 11px;
-  }
-  .optdd-on {
-    position: absolute;
-    top 3px;
-    left: -1px;
-    color: #fff;
   }
   }
