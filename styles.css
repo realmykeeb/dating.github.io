@@ -33,7 +33,7 @@ min-height: 100vh;
  background-attachment: fixed;
  background-position: center center;
 display: flex;
-background: linear-gradient(90deg, #0078d4, #c218ec);
+background: rgb(148 148 148 /90%);
 flex-direction: column;
 
  margin: 0;
@@ -54,7 +54,7 @@ nav{
 
   height: 37px;
 
-  background: rgb(148 148 148 /90%);;
+  background: rgb(148 148 148 /90%);
 
   display: flex;
 
