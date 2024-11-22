@@ -53,9 +53,7 @@ html{
 nav{
 
   height: 37px;
-
-  background: rgb(148 148 148 /90%);
-
+  border-top: 1px solid #ddd;
   display: flex;
 
   justify-content: flex-end;
