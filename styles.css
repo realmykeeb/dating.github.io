@@ -33,7 +33,7 @@ min-height: 100vh;
  background-attachment: fixed;
  background-position: center center;
 display: flex;
-background: rgb(148 148 148 /90%);
+background: #9c9d9d;
 flex-direction: column;
 
  margin: 0;
@@ -508,7 +508,7 @@ main {
   
 .footerzz {
 
-background-color: #000;
+background-color: #9c9d9d;
 display: flex;
 z-index: 9;
 background-color: #000;
@@ -525,6 +525,7 @@ width: 100%; /* Ensures it spans the full page width */
 left: 0; /* Aligns the footer with the left edge */
 margin: 0; /* Removes unnecessary margin */
 margin-top: 510px;
+border-top: 1px solid #ddd;
 }
   }
     
