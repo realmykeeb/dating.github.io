@@ -33,7 +33,7 @@ min-height: 100vh;
  background-attachment: fixed;
  background-position: center center;
 display: flex;
-background: #9c9d9d;
+background-color: rgb(0, 0, 0);
 flex-direction: column;
 
  margin: 0;
@@ -53,7 +53,7 @@ html{
 nav{
 
   height: 37px;
-  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
   display: flex;
 
   justify-content: flex-end;
@@ -507,7 +507,6 @@ main {
 background-color: #9c9d9d;
 display: flex;
 z-index: 9;
-background-color: #000;
 grid-template-rows: auto auto;
 grid-template-columns: 1fr 1fr;
 grid-column-gap: 1rem;
