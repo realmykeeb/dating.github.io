@@ -33,7 +33,7 @@ min-height: 100vh;
  background-attachment: fixed;
  background-position: center center;
 display: flex;
-background-color: rgb(0, 0, 0);
+background-color: #9c9d9d;
 flex-direction: column;
 
  margin: 0;
