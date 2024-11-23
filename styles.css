@@ -504,7 +504,7 @@ main {
   
 .footerzz {
 
-background-color: #9c9d9d;
+background-image: url(Screenshot_20241123-010636.jpg);
 display: flex;
 z-index: 9;
 grid-template-rows: auto auto;
