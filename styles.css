@@ -137,7 +137,7 @@ color: #fff;
   p {
    font-family: 'Arial black';
 
-   color: #fff;
+   color: #000;
 
    text-shadow: -3px 3px 0 #fff, -3 3px 0 #fff;;
 
@@ -159,7 +159,7 @@ color: #fff;
   right: -100%;
   z-index: 9999; /* Higher z-index to ensure it appears on top */
   width: 100%;
-  background-color: #fff;
+  background-image: url(photo-1520975408777-d189f6edc46d.jpeg);
   box-shadow: -5px 0 5px rgba(0, 0, 0, 0.25);
   transition: 0.75s ease-out;
 }
