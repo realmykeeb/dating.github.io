@@ -144,7 +144,8 @@ color: #fff;
    letter-spacing: 1px;
 
    text-transform: uppercase;
-
+   position: absolute;
+   top: 18px;
    text-align: center;
         
 }
