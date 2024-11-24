@@ -12,18 +12,9 @@
 </head>
 <body> 
 <script>
- // Function to redirect to desktop version
-function redirectToDesktop() {
-  // Replace 'https://realmykeeb.github.io/dating.github.io/message.html' with your actual desktop URL
-  window.location.href = 'https://realmykeeb.github.io/dating.github.io/message.html';
-}
-
-// Check screen size on page load
-window.onload = function() {
-  if (window.innerWidth >= 768) {
-    redirectToDesktop();
+  if (window.innerWidth > 768) {
+    window.location.href = "https://realmykeeb.github.io/dating.github.io/message.html";
   }
-};
 </script>
 
   <div class="navbar"></div>
