@@ -183,7 +183,7 @@ color: #fff;
 
         border: none;
 
-        color: white;
+        color: linear-gradient(90deg, #0078d4, #c218ec);
 
         padding: 15px 32px;
 
