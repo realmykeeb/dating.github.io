@@ -183,9 +183,8 @@ color: #fff;
 
         border: none;
 
-        background: linear-gradient(90deg, #0078d4, #c218ec);
-      -webkit-background-clip: text;
-      color: transparent;
+        color: #6111CE;
+
         text-align: center;
 
         text-decoration: none;
