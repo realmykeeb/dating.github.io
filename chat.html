@@ -12,18 +12,19 @@
 </head>
 <body> 
 <script>
-// Check if the redirect has already occurred
-if (!localStorage.getItem('redirected')) {
-  // Detect mobile device (adjust the detection logic as needed)
-  if (window.innerWidth <= 768) {
-    window.location.href = "https://realmykeeb.github.io/dating.github.io/chat.html";
-    localStorage.setItem('redirected', 'true');
-  } else {
-    window.location.href = "https://realmykeeb.github.io/dating.github.io/message.html";
-    localStorage.setItem('redirected', 'true');
-  }
+ // Function to redirect to desktop version
+function redirectToDesktop() {
+  // Replace 'https://realmykeeb.github.io/dating.github.io/message.html' with your actual desktop URL
+  window.location.href = 'https://realmykeeb.github.io/dating.github.io/message.html';
 }
-  </script>
+
+// Check screen size on page load
+window.onload = function() {
+  if (window.innerWidth >= 768) {
+    redirectToDesktop();
+  }
+};
+</script>
 
   <div class="navbar"></div>
   <div class="nav">
