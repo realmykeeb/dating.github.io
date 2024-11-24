@@ -12,18 +12,19 @@
 </head>
 <body> 
   <script>
-  // Get the current URL's path
+  // Get the current page's full URL path
   const currentPage = window.location.pathname;
 
-  // Redirect only if the user is not already on the target page
-  if (window.innerWidth <= 768 && !currentPage.includes("chat.html")) {
+  // Ensure we handle paths properly (e.g., "/chat.html" vs. "chat.html")
+  if (window.innerWidth <= 768 && !currentPage.endsWith("chat.html")) {
     // Redirect mobile users to chat.html
-    window.location.href = "/chat.html"; // Ensure this matches the exact path
-  } else if (window.innerWidth > 768 && !currentPage.includes("message.html")) {
+    window.location.href = "/chat.html"; // Update path as necessary
+  } else if (window.innerWidth > 768 && !currentPage.endsWith("message.html")) {
     // Redirect desktop users to message.html
-    window.location.href = "/message.html"; // Ensure this matches the exact path
+    window.location.href = "/message.html"; // Update path as necessary
   }
 </script>
+
 
   <div class="navbar"></div>
   <div class="nav">
