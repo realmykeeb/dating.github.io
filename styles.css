@@ -183,8 +183,9 @@ color: #fff;
 
         border: none;
 
-        color: linear-gradient(90deg, #0078d4, #c218ec); 
-
+        background: linear-gradient(90deg, #0078d4, #c218ec);
+      -webkit-background-clip: text;
+      color: transparent;
         text-align: center;
 
         text-decoration: none;
@@ -204,8 +205,6 @@ color: #fff;
         margin-top: 240px;
 
         height: 50px;
-
-        transition: background-color 0.3s ease;
 
   }
   .open-sidebar-button, .close-sidebar-button{
