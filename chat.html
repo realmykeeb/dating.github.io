@@ -12,15 +12,18 @@
 </head>
 <body> 
 <script>
-    // Detect the user's device type
-    if (window.innerWidth <= 768) {
-      // Redirect to the mobile page
-      window.location.href = "https://realmykeeb.github.io/dating.github.io/chat.html"; // Replace with your mobile page URL
-    } else {
-      // Redirect to the desktop page
-      window.location.href = "https://realmykeeb.github.io/dating.github.io/message.html"; // Replace with your desktop page URL
-    }
-  </script>
+  // Get the current page's full URL path
+  const currentPage = window.location.pathname;
+
+  // Ensure we handle paths properly (e.g., "/chat.html" vs. "chat.html")
+  if (window.innerWidth <= 768 && !currentPage.endsWith("https://realmykeeb.github.io/dating.github.io/chat.html")) {
+    // Redirect mobile users to chat.html
+    window.location.href = "https://realmykeeb.github.io/dating.github.io/chat.html"; // Update path as necessary
+  } else if (window.innerWidth > 768 && !currentPage.endsWith("https://realmykeeb.github.io/dating.github.io/message.html")) {
+    // Redirect desktop users to message.html
+    window.location.href = "https://realmykeeb.github.io/dating.github.io/message.html"; // Update path as necessary
+  }
+</script>
 
   <div class="navbar"></div>
   <div class="nav">
