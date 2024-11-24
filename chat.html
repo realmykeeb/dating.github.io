@@ -16,10 +16,10 @@
     const currentPage = window.location.pathname;
 
     // Redirect logic only runs if the user is not already on the target page
-    if (window.innerWidth <= 768 && currentPage !== "/chat.html") {
+    if (window.innerWidth <= 768 && currentPage !== "chat.html") {
       // Redirect mobile users to chat.html
       window.location.href = "chat.html";
-    } else if (window.innerWidth > 768 && currentPage !== "/desktop.html") {
+    } else if (window.innerWidth > 768 && currentPage !== "message.html") {
       // Redirect desktop users to desktop.html
       window.location.href = "message.html";
     }
