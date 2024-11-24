@@ -183,7 +183,7 @@ color: #fff;
 
         border: none;
 
-        background-image: linear-gradient(90deg, #0078d4, #c218ec); 
+        color: linear-gradient(90deg, #0078d4, #c218ec); 
 
         text-align: center;
 
