@@ -14,4 +14,7 @@ html, body {
   max-width: 800px;
   min-height: 500px;
 }
-#left-panel {}
+#left_panel {
+  min-height: 400px;
+  background-color: red;
+}
