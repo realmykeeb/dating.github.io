@@ -9,3 +9,9 @@ html, body {
   margin: 0;
   padding: 0;
 }
+
+#wrapper {
+  max-width: 800px;
+  min-height: 500px;
+}
+#left-panel {}
