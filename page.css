@@ -21,8 +21,10 @@ body {
 #left_panel {
   min-height: 400px;
   background-color: red;
+  flex: 1;
 }
 #right_panel {
   min-height: 400px;
   background-color: green;
+  flex: 1;
 }
