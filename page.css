@@ -26,5 +26,5 @@ body {
 #right_panel {
   min-height: 400px;
   background-color: green;
-  flex: 1;
+  flex: 4;
 }
