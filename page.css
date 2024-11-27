@@ -22,3 +22,7 @@ body {
   min-height: 400px;
   background-color: red;
 }
+#right_panel {
+  min-height: 400px;
+  background-color: green;
+}
