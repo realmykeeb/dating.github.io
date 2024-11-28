@@ -31,5 +31,5 @@ body {
 .container .rightSide {
   position: relative;
   flex: 70%;
-  background: red;
+  background: green;
 }
