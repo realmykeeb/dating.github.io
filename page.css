@@ -41,11 +41,10 @@ body {
   padding: 10px;
 }
 .text-name2 {
-font-family: system-ui;
-font-weight: bold;
+font-family: sans-serif;
 margin-left: 70px;
-right: -1px;
-top: -53px;
+right: -6px;
+top: -78px;
 position: relative;
 padding: 10px;
 }
