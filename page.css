@@ -16,4 +16,8 @@ body {
 }
 .container {
   position: relative;
+  width: 1396px;
+  max-width: 100%;
+  height: calc(100% -40px);
+  background: #fff;
 }
