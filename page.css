@@ -12,3 +12,9 @@ html, body {
 body {
   background: red;
 }
+.fullbody {
+  position: relative;
+  height: 92.4vh;
+  background: #fff;
+  width: 38%;
+}
