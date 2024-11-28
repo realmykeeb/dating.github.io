@@ -9,16 +9,23 @@ html, body {
   margin: 0;
   padding: 0;
 }
+
 body {
-  background: red;
+  display: flex; /* Align the left and right sections side by side */
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  overflow: hidden; /* Prevents scrolling */
 }
+
 .leftside {
-  position: fixed;
+  position: fixed; /* Keeps the left section static */
   height: 100vh;
   background: #fff;
-  width: 36%;
+  width: 36%; /* Defines the width of the left section */
   box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
 }
+
 .leftavatar {
   vertical-align: middle;
   width: 72px;
@@ -28,30 +35,40 @@ body {
   left: 9px;
   object-fit: cover;
 }
+
 .header {
   height: 55px;
   width: 100%;
   background: black;
 }
+
 .text-name1 {
   font-family: system-ui;
   font-weight: bold;
   margin-left: 70px;
- right: -2.5px;
- top: -59px;
+  right: -2.5px;
+  top: -59px;
   position: relative;
   padding: 10px;
 }
+
 .text-name2 {
-font-family: sans-serif;
-margin-left: 70px;
-right: -22px;
-top: -78px;
-position: relative;
-padding: 10px;
+  font-family: sans-serif;
+  margin-left: 70px;
+  right: -22px;
+  top: -78px;
+  position: relative;
+  padding: 10px;
 }
+
 span#editz {
-position: relative;
-top: -127px;
-left: 265px;
+  position: relative;
+  top: -127px;
+  left: 265px;
+}
+
+.rightside {
+  flex-grow: 1; /* Takes up the remaining space on the right */
+  background: red;
+  height: 100vh; /* Matches the height of the viewport */
 }
