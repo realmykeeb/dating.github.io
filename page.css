@@ -13,7 +13,7 @@ body {
   background: red;
 }
 .leftside {
-  position: relative;
+  position: fixed;
   height: 92.4vh;
   background: #fff;
   width: 38%;
