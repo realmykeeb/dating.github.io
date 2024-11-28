@@ -84,12 +84,12 @@ span#editz {
   object-fit: cover;
 }
 
-.text-name1 {
+.left-name {
   font-family: system-ui;
   font-weight: bold;
   margin-left: 70px;
   right: -2.5px;
-  margin-top: 72px;
+  margin-top: 70px;
   position: relative;
   padding: 10px;
   }
