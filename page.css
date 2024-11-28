@@ -20,8 +20,8 @@ body {
 }
 .leftavatar {
   vertical-align: middle;
-  width: 69px;
-  height: 66px;
+  width: 72px;
+  height: 68px;
   border-radius: 80px;
   position: relative;
   left: 9px;
@@ -43,7 +43,7 @@ body {
 .text-name2 {
 font-family: sans-serif;
 margin-left: 70px;
-right: -6px;
+right: -5px;
 top: -78px;
 position: relative;
 padding: 10px;
