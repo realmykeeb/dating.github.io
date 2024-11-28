@@ -83,3 +83,13 @@ span#editz {
   margin-top: 72px;
   object-fit: cover;
 }
+
+.text-name1 {
+  font-family: system-ui;
+  font-weight: bold;
+  margin-left: 70px;
+  right: -2.5px;
+  margin-top: 72px;
+  position: relative;
+  padding: 10px;
+  }
