@@ -39,7 +39,8 @@ body {
 .header {
   height: 69px;
   width: 100%;
-  background: black;
+  background: #fff;
+  border-bottom: 1px solid #bdbdbd;
 }
 
 .text-name1 {
