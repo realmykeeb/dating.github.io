@@ -9,19 +9,3 @@ html, body {
   margin: 0;
   padding: 0;
 }
-
-#wrapper {
-  max-width: 800px;
-  min-height: 500px;
-}
-#left_panel {
-  height: 400px;
-  background-color: red;
-  flex: 1;
-  width: 70px;
-}
-#right_panel {
-  height: 400px;
-  background-color: green;
-  flex: 4;
-}
