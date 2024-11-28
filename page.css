@@ -14,7 +14,7 @@ body {
 }
 .leftside {
   position: fixed;
-  height: 92.4vh;
+  height: 100vh;
   background: #fff;
   width: 38%;
 }
