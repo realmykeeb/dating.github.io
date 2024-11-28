@@ -29,3 +29,11 @@ body {
   width: 100%;
   background: black;
 }
+.text-name1 {
+  font-family: system-ui;
+  font-weight: bold;
+  margin-left: 18px;
+ right: 24px;
+ top: -5px;
+  position: relative;
+}
