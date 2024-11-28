@@ -42,3 +42,10 @@ body {
   width: 100%;
   background: #fff;
 }
+
+.header {
+  position: relative;
+  width: 100%;
+  height: 60px;
+  background: #f2f2f2;
+}
