@@ -40,6 +40,15 @@ body {
   position: relative;
   padding: 10px;
 }
+.text-name2 {
+font-family: system-ui;
+font-weight: bold;
+margin-left: 70px;
+right: -1px;
+top: -53px;
+position: relative;
+padding: 10px;
+}
 span#editz {
 position: relative;
 top: -89px;
