@@ -33,3 +33,11 @@ body {
   flex: 70%;
   background: green;
 }
+.container .rightSide::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #fff;
+}
