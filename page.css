@@ -30,6 +30,6 @@ body {
 }
 .container .rightSide {
   position: relative;
-  flex: 30%;
+  flex: 70%;
   background: red;
 }
