@@ -25,4 +25,6 @@ body {
 }
 .container .leftSide {
   position: relative;
+  flex: 30%;
+  background: red;
 }
