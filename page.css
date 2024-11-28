@@ -72,3 +72,13 @@ span#editz {
   background: red;
   height: 100vh; /* Matches the height of the viewport */
 }
+
+.leftavatarr {
+  vertical-align: middle;
+  width: 72px;
+  height: 68px;
+  border-radius: 80px;
+  position: relative;
+  left: 9px;
+  object-fit: cover;
+}
