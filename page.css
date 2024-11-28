@@ -28,3 +28,8 @@ body {
   flex: 30%;
   background: red;
 }
+.container .rightSide {
+  position: relative;
+  flex: 30%;
+  background: red;
+}
