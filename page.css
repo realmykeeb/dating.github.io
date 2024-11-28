@@ -27,6 +27,7 @@ body {
   position: relative;
   flex: 30%;
   background: red;
+  border-right: 1px solid #f2f2f2;
 }
 .container .rightSide {
   position: relative;
