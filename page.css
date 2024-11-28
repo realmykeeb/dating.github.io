@@ -25,6 +25,7 @@ body {
   border-radius: 80px;
   position: relative;
   left: 9px;
+  object-fit: cover;
 }
 .header {
   height: 44px;
@@ -43,7 +44,7 @@ body {
 .text-name2 {
 font-family: sans-serif;
 margin-left: 70px;
-text-align: center;
+right: -16px;
 top: -78px;
 position: relative;
 padding: 10px;
