@@ -24,3 +24,8 @@ body {
   height: 58px;
   border-radius: 80px;
 }
+.header {
+  height: 44px;
+  width: 100%;
+  background: black;
+}
